@@ -38,6 +38,12 @@ function setupBot() {
     const text = msg.text;
     const chatId = msg.chat.id;
 
+    if (!commands.some((cmd) => cmd.command === text)) {
+      const unknownCommandMessage =
+        "Извините, я не знаю такой команды. Напишите /commands, чтобы увидеть доступные команды.";
+      bot.sendMessage(chatId, unknownCommandMessage);
+    }
+
     if (text === "/start") {
       const username = msg.from.first_name || "дорогой гость";
       const welcomeMessage = `
