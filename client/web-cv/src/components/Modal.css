@@ -1,0 +1,97 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal__content {
+  padding: 30px 80px 53px 80px;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 600px;
+  height: 500px;
+}
+
+.calculator__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #273453;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.calculator__radiobtns-title {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  padding-left: 5px;
+}
+
+.calculator__radiobtn + .calculator__radiobtn {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.calculator__slider {
+  background-color: #273453;
+  border-radius: 15px;
+}
+
+.calculator__slider-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.calculator__slider-container {
+  padding: 0 20px;
+}
+
+.slider__range {
+  width: 100%;
+}
+
+.calculator__slider-text {
+  font-size: 16px;
+  color: #fff;
+}
+
+.calculator_silder-text-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.calculator__slider-btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 25px;
+  background-color: #b12a2e;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

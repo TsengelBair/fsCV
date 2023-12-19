@@ -1,0 +1,22 @@
+.footer {
+  background-color: #273453;
+  text-align: center;
+}
+
+.footer_icons {
+  padding-top: 40px;
+  padding-bottom: 27px;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  padding-bottom: 40px;
+  letter-spacing: -0.5px;
+}
+
+.footer_icon + .footer_icon {
+  padding-left: 30px;
+}

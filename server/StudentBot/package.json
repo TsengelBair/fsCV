@@ -1,0 +1,23 @@
+{
+  "name": "new_tg_bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "har-validator": "^5.1.5",
+    "mongodb": "^6.3.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^3.0.1",
+    "request-promise": "^4.2.6",
+    "uuid": "^9.0.0"
+  }
+}

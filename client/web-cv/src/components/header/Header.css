@@ -1,0 +1,35 @@
+.header {
+  background-color: #273453;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(38, 41, 45, 0.5); /* Это стилизация нижней границы */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav_logo {
+  font-size: 24px;
+}
+
+.nav_logo strong {
+  font-weight: 700;
+}
+
+.nav_menu {
+  display: flex;
+}
+
+.menu_item + .menu_item {
+  padding-left: 40px;
+}
+
+.menu_item_link:hover {
+  color: #b12a2e;
+}

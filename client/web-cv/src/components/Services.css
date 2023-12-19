@@ -1,0 +1,47 @@
+/* services */
+
+.services {
+  background-color: #fff;
+  text-align: center;
+}
+
+.services_inner_title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #b12a2e;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.services_inner_subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(39, 52, 83, 0.5);
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  padding-bottom: 100px;
+}
+
+.services_inner_offers {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+
+.services_inner_offer_text {
+  font-size: 32px;
+  font-weight: 500;
+  color: #273453;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.services_inner_offer_btn {
+  padding: 10px 63px;
+  background-color: transparent; /* Прозрачный фон */
+  border: 1px solid #273453; /* Обводка толщиной 2 пикселя, черного цвета */
+  border-radius: 5px;
+  cursor: pointer;
+}
