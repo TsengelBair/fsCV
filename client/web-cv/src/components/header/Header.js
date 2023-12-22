@@ -12,7 +12,6 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <nav className="nav">
-          {/* Заменяем NavLink на обычный текстовый элемент */}
           <span className="nav_logo">
             <strong>Teacher</strong> portfolio
           </span>
